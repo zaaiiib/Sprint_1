@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Desi Nuts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="auth.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <div class="logodiv">
+            <a href="index.html"><img src="assets/logomain.png" alt="DesiNuts.com" class="logomain"></a>
+        </div>
+        <div class="navdiv">
+            <ul class="mainlist">
+                <a href="index.html"><li class="home">Home</li></a>
+                <a href="shop.html"><li class="shop">Shop</li></a>
+                <a href="bulk.html"><li class="bulk">Bulk Orders</li></a>
+                <a href="aboutus.html"><li class="about">About Us</li></a>
+                <a href="contactus.html"><li class="contact">Contact Us</li></a>
+                <li class="authnav-item" id="authNavItem"><a href="login.html" id="authNavLink" class="contact">Login</a></li>
+                <a href="cart.html"><li class="home"><i class="ri-shopping-cart-fill"></i></li></a>
+            </ul>
+        </div>
+    </header>
+
+    <div class="authmaindiv">
+        <div class="authcard">
+            <h1 class="authhead">Welcome Back</h1>
+            <p class="authsubtext">Login to your Desi Nuts account</p>
+
+            <form class="authform" id="loginForm">
+                <input type="email" id="loginEmail" placeholder="Email Address" required>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <p class="autherrormsg" id="loginError"></p>
+                <button type="submit" class="authsubmitbtn">Login</button>
+            </form>
+
+            <p class="authswitchtext">Don't have an account? <a href="register.html">Register here</a></p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

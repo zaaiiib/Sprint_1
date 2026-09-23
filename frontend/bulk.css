@@ -1,0 +1,134 @@
+.bulkmainbg{
+    height: 280px;
+    width: 100%;
+    background-image: url(assets/bulkorderbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bulkdesc{
+    width: 100%;
+    padding: 30px 20px 10px;
+}
+
+.bulkhead{
+   font-size: 26px;
+   color: black;
+   font-weight: bold;
+   margin-left: 20px;
+}
+
+.bulkp{
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+    margin-left: 20px;
+    padding-top: 12px;
+    line-height: 1.7;
+}
+
+.bulkform{
+    width: 100%;
+    padding: 20px 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.bulkform1{
+    width: 30%;
+    min-width: 240px;
+    padding: 25px 0;
+    background-color: #520608;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px gray;
+}
+.formheadbulk{
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.ri-instagram-fill, .ri-facebook-circle-fill, .ri-twitter-fill, .ri-linkedin-box-fill {
+    font-size: 26px;
+    color: white;
+    margin: 15px 8px 0 0;
+}
+.ri-instagram-fill {
+    margin-left: 30px;
+}
+.ri-instagram-fill:hover, .ri-facebook-circle-fill:hover, .ri-twitter-fill:hover, .ri-linkedin-box-fill:hover {
+    color: black;
+}
+.formsubheadbulk{
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.bulkform2{
+    min-height: 400px;
+    height: auto;
+    padding: 20px 0 30px;
+    width: 45%;
+    min-width: 280px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px 0px gray;
+}
+
+.bulkinputname, .bulkinputemail, .bulkinputphone, .bulkinputsubject {
+    height: 44px;
+    width: 85%;
+    display: block;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid rgb(189, 189, 189);
+    padding-left: 15px;
+    color: black;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.inputdesc1{
+    font-size: 14px;
+    color: black;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.bulkinputmsg {
+    height: 110px;
+    width: 85%;
+    display: block;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid rgb(189, 189, 189);
+    padding: 10px 15px;
+    color: black;
+    margin-left: 25px;
+    margin-top: 12px;
+    font-family: 'Montserrat', sans-serif;
+    resize: vertical;
+}
+
+.bulksendnow {
+    height: 44px;
+    width: 180px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #520608;
+    border: none;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.bulksendnow:hover {
+    background-color: #2b0304;
+}

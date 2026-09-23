@@ -1,0 +1,114 @@
+.shopmaindiv{
+    height: 260px;
+    width: 100%;
+    background-image: url(assets/shopmainbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shophead{
+    padding: 25px 20px;
+    background-color: #dcdddd;
+    width: 95%;
+    border-radius: 20px;
+    justify-self: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.shopheadpara{
+    font-size: 22px;
+    color: grey;
+    text-align: center;
+}
+
+.itemscontainer{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.item1div, .item2div, .item3div, .item4div {
+    width: 22%;
+    min-width: 220px;
+    flex: 1 1 220px;
+}
+
+.item1imgdiv, .item2imgdiv, .item3imgdiv, .item4imgdiv {
+    height: 220px;
+    overflow: hidden;
+}
+
+.item1img, .item2img, .item3img, .item4img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+}
+
+.item1img:hover, .item2img:hover, .item3img:hover, .item4img:hover {
+    transform: scale(1.02);
+}
+
+.item1descdiv, .item2descdiv, .item3descdiv, .item4descdiv {
+    min-height: 220px;
+    height: auto;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    background-color: white;
+}
+
+.item1head, .item2head, .item3head, .item4head {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 50px;
+}
+
+.weightselect {
+    height: 42px;
+    width: 150px;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px auto 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.08);
+    background-color: white;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.addtocart {
+    height: 44px;
+    width: 190px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #7B3C5B;
+    cursor: pointer;
+    margin: 14px auto 0 auto;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    font-family: inherit;
+}
+
+.addtocart:hover {
+    background-color: #4a1733;
+    transform: translateY(-2px);
+}

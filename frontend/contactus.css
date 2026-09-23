@@ -1,0 +1,141 @@
+.contactmainimgdiv{
+    height: 280px;
+    width: 100%;
+    background-color: #6B462A;
+   background-image: url(assets/contactus.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.contactusdesc{
+    width: 90%;
+    justify-self: center;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+.contacthead{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.contactpara{
+    font-size: 15px;
+    color: rgb(102, 101, 101);
+    margin-top: 15px;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+.contactcontainer{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 40px;
+    padding: 0 20px 40px;
+}
+.subcontainer1{
+     background-image: url(assets/contactdescbg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+    width: 38%;
+    min-width: 260px;
+    padding: 30px 20px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 2px 30px rgb(29, 28, 28);
+}
+
+
+.subcontainerhead{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.subcontainerlocationimg, .subcontaineremail, .subcontainerphone {
+    height: 30px;
+    display: block;
+    margin: 20px auto 0;
+    cursor: auto;
+}
+.subcontaineraddress{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color:rgb(221, 215, 215);
+}
+.subcontaineremailpara{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color:rgb(221, 215, 215);
+}
+
+.subcontainerphonepara{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color:rgb(221, 215, 215);
+}
+
+.subcontainer2{
+    background-color:#7B3C5B;
+    width: 38%;
+    min-width: 260px;
+    background-image: url(assets/contactformbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 25px 0;
+    box-shadow: 0px 2px 30px rgb(29, 28, 28);
+}
+
+
+.inputname, .inputmob, .inputemail, .inputsubject {
+    height: 46px;
+    width: 85%;
+    display: block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 15px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.msgbox{
+    height: 140px;
+    width: 85%;
+    display: block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-top: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-family: inherit;
+    resize: vertical;
+}
+
+.sendnow{
+    height: 46px;
+    width: 85%;
+    margin-top: 15px;
+    margin-left: 25px;
+    background-color: #653B3F;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sendnow:hover{
+    background-color: #271c1e;
+    color:white;
+}

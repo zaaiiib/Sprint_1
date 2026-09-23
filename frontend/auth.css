@@ -1,0 +1,84 @@
+.authmaindiv {
+    min-height: 88vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 20px 60px 20px;
+}
+
+.authcard {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 420px;
+    padding: 40px 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.authhead {
+    color: #6E2A4F;
+    font-size: 28px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.authsubtext {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.authform {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.authform input {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+}
+
+.authform input:focus {
+    border-color: #6E2A4F;
+}
+
+.authsubmitbtn {
+    background-color: #6E2A4F;
+    color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.authsubmitbtn:hover {
+    background-color: #55243c;
+}
+
+.authswitchtext {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.authswitchtext a {
+    color: #6E2A4F;
+    font-weight: bold;
+}
+
+.autherrormsg {
+    color: #c00;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}
