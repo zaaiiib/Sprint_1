@@ -28,18 +28,5 @@ Backend: .NET (C# / ASP.NET Core Web API)
 
 Database: SQL Server / Relational SQL Databases
 
-⚙️ Getting Started
-
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
-
-Prerequisites
-
-Make sure you have the following installed on your system:
-
-.NET SDK (v6.0 or higher recommended)
-
-A modern Web Browser (Chrome, Firefox, Edge, Safari)
-
-SQL Server (or LocalDB)
 
 Git
